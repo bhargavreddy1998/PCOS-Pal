@@ -1,0 +1,107 @@
+/* Background Styling */
+.analyze-trends-background {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #007b83;
+  background-blend-mode: overlay;
+}
+
+/* Header Styling */
+
+
+.section {
+  background-color: #f0fdf4;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #008b8b;
+}
+
+/* Header Styling */
+h1 {
+  color: #007b83;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 20px;
+  display: inline-block;
+  box-shadow: 0 8px 16px rgba(0, 123, 131, 0.1); 
+  border: 2px solid #007b83;
+  text-align: center;
+  animation: fadeInDown 1s ease-out;
+}
+
+/* Animation Effect */
+@keyframes fadeInDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Hover Effect */
+h1:hover {
+  background-color: #f0fdf4;
+  border-color: #00bfbf;
+  box-shadow: 0 8px 24px rgba(0, 123, 131, 0.3);
+  transition: all 0.3s ease;
+}
+
+
+
+/* Analyze Button */
+.analyze-btn {
+  background-color: #007b83;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 12px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.analyze-btn:hover {
+  background-color: #005f63;
+}
+
+/* Error Message */
+.error {
+  color: #d9534f;
+  font-weight: bold;
+}
+
+/* Result Message */
+.result {
+  color: #007b83;
+  font-weight: bold;
+  font-size: large;
+}
+
+/* Back Button (Positioned at Bottom) */
+.back-button {
+  margin-top: auto;
+  background-color: #007b83;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 12px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #005f63;
+}
