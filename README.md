@@ -11,7 +11,7 @@ check out the [Frontend README](frontend/README.md).
 # How to run Backend Server
 ```
 # Clone the repository
-git clone https://github.com/sathish2379/PCOSPal.git
+https://github.com/bhargavreddy1998/PCOS-Pal.git
 ```
 ```
 # cd to backend directory
